@@ -13,7 +13,7 @@ repo: https://github.com/usetrmnl/byos_laravel
 support: https://github.com/usetrmnl/byos_laravel/issues
 port: 4567
 gallery:
-  - 'https://github.com/usetrmnl/byos_laravel/blob/main/README_byos-screenshot.png'
+  - 'https://raw.githubusercontent.com/usetrmnl/byos_laravel/main/README_byos-screenshot.png'
 path: ""
 defaultPassword: ""
 releaseNotes: >-
