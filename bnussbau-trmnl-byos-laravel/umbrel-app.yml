@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: bnussbau-trmnl-byos-laravel
+category: automation
+name: TRMNL BYOS Laravel
+version: "0.16.1"
+tagline: Self-hosted application to manage TRMNL e-ink devices.
+description: >
+  TRMNL BYOS Laravel is a self-hosted application to manage TRMNL e-ink devices.
+developer: Benjamin Nussbaum
+website: https://docs.usetrmnl.com/go/diy/byos
+dependencies: []
+repo: https://github.com/usetrmnl/byos_laravel
+support: https://github.com/usetrmnl/byos_laravel/issues
+port: 4567
+gallery:
+  - 'https://github.com/usetrmnl/byos_laravel/blob/main/README_byos-screenshot.png'
+path: ""
+defaultPassword: ""
+releaseNotes: >-
+  feat: allow url_encode for arrays in polling url
+  feat(catalog): check recipe compatibility and min_version
+  feat(recipes): show more detailed Liquid exceptions
+  fix(recipes): normalize key for multi-selects
+  fix(recipes): include Laravel Liquid filters (like dd)
+  fix: speedup plugin overview page
+submitter: bnussbau
+submission: 

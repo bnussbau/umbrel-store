@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_DATA_DIR="$(readlink -f $(dirname "${BASH_SOURCE[0]}")/..)/data"
+APP_DATABASE_DIR="$(readlink -f $(dirname "${BASH_SOURCE[0]}")/..)/data/database"
+APP_IMAGE_DIR="$(readlink -f $(dirname "${BASH_SOURCE[0]}")/..)/data/images"
+APP_FIRMWARES_DIR="$(readlink -f $(dirname "${BASH_SOURCE[0]}")/..)/data/firmwares"
+
+chown -R 82:82 "${APP_DATA_DIR}"
+chown -R 82:82 "${APP_DATABASE_DIR}"
+chown -R 82:82 "${APP_IMAGE_DIR}"
+chown -R 82:82 "${APP_FIRMWARES_DIR}"

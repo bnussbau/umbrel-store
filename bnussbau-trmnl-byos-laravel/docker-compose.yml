@@ -1,0 +1,18 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: bnussbau-trmnl-byos-laravel_app_1
+      APP_PORT: 8080
+      PROXY_AUTH_WHITELIST: "/api/*"
+
+  app:
+    image: ghcr.io/usetrmnl/byos_laravel:0.16.1@sha256:49aa322e6aa7211fc61d19aa1ca498750951feab9cd086df99736ddb6cf00378
+    environment:
+      - PHP_OPCACHE_ENABLE=1
+      - TRMNL_PROXY_REFRESH_MINUTES=15
+      - DB_DATABASE=database/storage/database.sqlite
+    volumes:
+      - ${APP_DATA_DIR}/data/database/:/var/www/html/database/storage
+      - ${APP_DATA_DIR}/data/images/:/var/www/html/storage/app/public/images/generated
+      - ${APP_DATA_DIR}/data/firmwares/:/var/www/html/storage/app/public/firmwares
+    restart: on-failure
