@@ -3,7 +3,7 @@ id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
 version: "0.16.1"
-tagline: Self-hosted application to manage TRMNL e-ink devices.
+tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 description: >
   TRMNL BYOS Laravel is a self-hosted application to manage TRMNL e-ink devices.
 developer: Benjamin Nussbaum
