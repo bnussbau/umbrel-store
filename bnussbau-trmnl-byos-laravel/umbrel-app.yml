@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.16.2"
+version: "0.17.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 description: >
   TRMNL BYOS Laravel is a self-hosted application to manage TRMNL e-ink devices.
@@ -17,9 +17,8 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  fix(#88): allow playlist selection for multiple devices
+  This release refactors the browser and image pipeline and includes several Framework v2 optimizations for ‘BYOD’. Note that the default render strategy remains image upscaling, as the Framework v2 scale utility is still in beta.
 
-
-  fix(#89): Liquid regex pattern too broad in for loop
+  It also adds support for recipes in monorepos, which now makes 46+ community recipes installable via the catalog.
 submitter: bnussbau
 submission: 
