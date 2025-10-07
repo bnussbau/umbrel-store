@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.17.0"
+version: "0.17.3"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
@@ -18,8 +18,10 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release refactors the browser and image pipeline and includes several Framework v2 optimizations for ‘BYOD’. Note that the default render strategy remains image upscaling, as the Framework v2 scale utility is still in beta.
-
-  It also adds support for recipes in monorepos, which now makes 46+ community recipes installable via the catalog.
+  * feat: add Liquid filter `ordinalize`
+  
+  * fix(#95): improve compatibilty with strftime in Liquid for date and l_date filters
+  
+  * fix: inject `trmnl.system.timestamp_utc` into templates
 submitter: bnussbau
 submission: 
