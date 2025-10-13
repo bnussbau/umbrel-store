@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.17.3"
+version: "0.18.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
@@ -18,10 +18,6 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  * feat: add Liquid filter `ordinalize`
-  
-  * fix(#95): improve compatibilty with strftime in Liquid for date and l_date filters
-  
-  * fix: inject `trmnl.system.timestamp_utc` into templates
+  This release includes the introduction of the CodeMirror editor for code editing, which enables syntax highlighting and code folding. In addition, the multi_string config field is now supported.
 submitter: bnussbau
 submission: 
