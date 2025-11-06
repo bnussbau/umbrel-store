@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.18.0"
+version: "0.20.1"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
@@ -18,6 +18,6 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release includes the introduction of the CodeMirror editor for code editing, which enables syntax highlighting and code folding. In addition, the multi_string config field is now supported.
+  This release adds support for polling endpoints with plain text responses.
 submitter: bnussbau
 submission: 
