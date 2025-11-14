@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.20.1"
+version: "0.21.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
@@ -18,6 +18,7 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release adds support for polling endpoints with plain text responses.
+  This release adds the TRMNL Recipe Catalog, allowing you to directly search and install community recipes.
+  There are still some limitations with catalog recipe support (e.g. RSS/RDF polling). Your feedback is appreciated!
 submitter: bnussbau
 submission: 
