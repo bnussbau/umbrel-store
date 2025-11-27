@@ -3,17 +3,18 @@
   "extends": [
     "config:recommended"
   ],
-  "docker": {
-    "digest": {
-      "enabled": true
-    }
-  },
   "docker-compose": {
     "digest": {
       "enabled": true
     }
   },
   "packageRules": [
+    {
+      "matchCategories": ["docker"],
+      "digest": {
+        "enabled": true
+      }
+    },
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/usetrmnl/byos_laravel"],
