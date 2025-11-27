@@ -30,6 +30,20 @@
       "postUpgradeTasks": {}
     }
   ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update version in umbrel-app.yml",
+      "managerFilePatterns": ["/umbrel-app\\.yml$/"],
+      "matchStrings": [
+        "version:\\s+\"(?<currentValue>[\\d\\.]+)\""
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "ghcr.io/usetrmnl/byos_laravel",
+      "extractVersionTemplate": "^v?(?<version>.*)$",
+      "autoReplaceStringTemplate": "version: \"{{{newVersion}}}\""
+    }
+  ],
   "postUpdateOptions": [
     "dockerComposeDigestUpdate"
   ]
