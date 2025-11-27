@@ -18,7 +18,6 @@ gallery:
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  This release adds the TRMNL Recipe Catalog, allowing you to directly search and install community recipes.
-  There are still some limitations with catalog recipe support (e.g. RSS/RDF polling). Your feedback is appreciated!
+  Please refer to the [GitHub release page](https://github.com/usetrmnl/byos_laravel/releases/) for detailed release notes.
 submitter: bnussbau
 submission: 

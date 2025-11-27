@@ -27,13 +27,7 @@
       "commitMessageExtra": "",
       "labels": ["dependencies", "renovate", "automerge"],
       "postUpdateOptions": ["dockerComposeDigestUpdate"],
-      "postUpgradeTasks": {
-        "commands": [
-          "bash .github/scripts/update-release-notes.sh"
-        ],
-        "fileFilters": ["**/umbrel-app.yml"],
-        "executionMode": "update"
-      }
+      "postUpgradeTasks": {}
     }
   ],
   "customManagers": [
