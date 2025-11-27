@@ -1,0 +1,61 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "docker": {
+    "digest": {
+      "enabled": true
+    }
+  },
+  "docker-compose": {
+    "digest": {
+      "enabled": true
+    }
+  },
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/usetrmnl/byos_laravel"],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "commitMessagePrefix": "chore(deps):",
+      "commitMessageAction": "update",
+      "commitMessageTopic": "{{depName}} to {{newVersion}}",
+      "commitMessageExtra": "",
+      "labels": ["dependencies", "renovate", "automerge"],
+      "postUpdateOptions": ["dockerComposeDigestUpdate"],
+      "postUpgradeTasks": {
+        "commands": [
+          "bash .github/scripts/update-release-notes.sh"
+        ],
+        "fileFilters": ["**/umbrel-app.yml"],
+        "executionMode": "update"
+      }
+    }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Update version in umbrel-app.yml",
+      "managerFilePatterns": ["/umbrel-app\\.yml$/"],
+      "matchStrings": [
+        "version:\\s+[\"']?(?<currentValue>[\\d\\.]+)[\"']?"
+      ],
+      "datasourceTemplate": "docker",
+      "depNameTemplate": "ghcr.io/usetrmnl/byos_laravel",
+      "extractVersionTemplate": "^v?(?<version>.*)$",
+      "autoReplaceStringTemplate": "version: \"{{{newVersion}}}\""
+    }
+  ],
+  "postUpdateOptions": [
+    "dockerComposeDigestUpdate"
+  ],
+  "platform": "github",
+  "repositories": ["bnussbau/umbrel-store"],
+  "allowedCommands": [
+    "^bash .github/scripts/update-release-notes\\.sh$"
+  ]
+}
+
