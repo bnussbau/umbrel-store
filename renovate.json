@@ -51,11 +51,6 @@
   ],
   "postUpdateOptions": [
     "dockerComposeDigestUpdate"
-  ],
-  "platform": "github",
-  "repositories": ["bnussbau/umbrel-store"],
-  "allowedCommands": [
-    "^bash .github/scripts/update-release-notes\\.sh$"
   ]
 }
 
