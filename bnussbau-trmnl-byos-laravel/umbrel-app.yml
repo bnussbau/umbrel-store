@@ -2,7 +2,7 @@ manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
 name: TRMNL BYOS Laravel
-version: "0.23.1"
+version: "0.23.2"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
