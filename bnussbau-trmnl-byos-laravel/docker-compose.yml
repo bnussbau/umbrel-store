@@ -6,7 +6,7 @@ services:
       PROXY_AUTH_WHITELIST: "/api/*"
 
   app:
-    image: ghcr.io/usetrmnl/byos_laravel:0.33.2@sha256:4b1b338ea3058c606754e9cec7ed10606305afd96bec1ba0b76538b394c46d1b
+    image: ghcr.io/usetrmnl/byos_laravel:0.34.0@sha256:123edc3e44905ede65eac2bf0fd366f5661b26a7d372f61eeab863e37844349f
     environment:
       - PHP_OPCACHE_ENABLE=1
       - TRMNL_PROXY_REFRESH_MINUTES=15
