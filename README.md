@@ -4,7 +4,7 @@ This is my personal Umbrel Community App Store.
 
 ### Apps
 
-* [TRMNL BYOS Laravel](https://github.com/usetrmnl/byos_laravel/)
+* [LaraPaper](https://github.com/usetrmnl/larapaper/)
 
 ### How to use?
 

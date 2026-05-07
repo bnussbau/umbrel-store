@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: bnussbau-trmnl-byos-laravel
 category: automation
-name: TRMNL BYOS Laravel
+name: LaraPaper
 version: "0.34.1"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
@@ -10,14 +10,14 @@ description: >
 developer: Benjamin Nussbaum
 website: https://docs.usetrmnl.com/go/diy/byos
 dependencies: []
-repo: https://github.com/usetrmnl/byos_laravel
-support: https://github.com/usetrmnl/byos_laravel/issues
+repo: https://github.com/usetrmnl/larapaper
+support: https://github.com/usetrmnl/larapaper/issues
 port: 4567
 gallery:
-  - 'https://raw.githubusercontent.com/usetrmnl/byos_laravel/main/README_byos-screenshot.png'
+  - 'https://raw.githubusercontent.com/usetrmnl/larapaper/main/README_byos-screenshot.png'
 path: ""
 defaultPassword: ""
 releaseNotes: >-
-  Please refer to the [GitHub release page](https://github.com/usetrmnl/byos_laravel/releases/) for detailed release notes.
+  Please refer to the [GitHub release page](https://github.com/usetrmnl/larapaper/releases/) for detailed release notes.
 submitter: bnussbau
 submission: 
