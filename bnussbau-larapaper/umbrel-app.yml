@@ -8,7 +8,7 @@ icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/
 description: >
   LaraPaper is a self-hosted BYOS ("Bring Your Own Server") for TRMNL e-paper devices.
 developer: Benjamin Nussbaum
-website: https://docs.usetrmnl.com/go/diy/byos
+website: https://trmnl.com/developers
 dependencies: []
 repo: https://github.com/usetrmnl/larapaper
 support: https://github.com/usetrmnl/larapaper/issues
