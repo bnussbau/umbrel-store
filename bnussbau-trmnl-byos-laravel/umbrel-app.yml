@@ -6,7 +6,7 @@ version: "0.39.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-trmnl-byos-laravel/logo.svg
 description: >
-  TRMNL BYOS Laravel is a self-hosted application to manage TRMNL e-ink devices.
+  LaraPaper is a self-hosted BYOS ("Bring Your Own Server") for TRMNL e-paper devices.
 developer: Benjamin Nussbaum
 website: https://docs.usetrmnl.com/go/diy/byos
 dependencies: []
