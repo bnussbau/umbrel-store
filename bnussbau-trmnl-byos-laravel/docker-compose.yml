@@ -3,7 +3,7 @@ services:
     environment:
       APP_HOST: bnussbau-trmnl-byos-laravel_app_1
       APP_PORT: 8080
-      PROXY_AUTH_WHITELIST: "/api/*"
+      PROXY_AUTH_WHITELIST: "/api/*,/storage/*"
 
   app:
     image: ghcr.io/usetrmnl/byos_laravel:0.39.0@sha256:a1206f6f3ac14fb199b8a12a795d2859cd945f4ea4a4b951d3e22d5cf7cadb3d
