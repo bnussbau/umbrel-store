@@ -4,7 +4,7 @@ category: automation
 name: LaraPaper
 version: "0.39.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
-icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/usetrmnl-larapaper/logo.svg
+icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/bnussbau-larapaper/logo.svg
 description: >
   LaraPaper is a self-hosted BYOS ("Bring Your Own Server") for TRMNL e-paper devices.
 developer: Benjamin Nussbaum
