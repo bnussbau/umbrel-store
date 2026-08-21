@@ -4,7 +4,7 @@ set -euo pipefail
 # This script updates the releaseNotes field in umbrel-app.yml
 # It fetches release notes from GitHub API for the new version
 
-UMBREL_APP_FILE="bnussbau-larapaper/umbrel-app.yml"
+UMBREL_APP_FILE="usetrmnl-larapaper/umbrel-app.yml"
 REPO="usetrmnl/larapaper"
 
 # Get the new version from Renovate's data file
