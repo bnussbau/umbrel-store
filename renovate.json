@@ -17,7 +17,7 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["ghcr.io/usetrmnl/byos_laravel"],
+      "matchPackageNames": ["ghcr.io/usetrmnl/larapaper"],
       "automerge": true,
       "automergeType": "pr",
       "automergeStrategy": "squash",
@@ -39,7 +39,7 @@
         "version:\\s+\"(?<currentValue>[\\d\\.]+)\""
       ],
       "datasourceTemplate": "docker",
-      "depNameTemplate": "ghcr.io/usetrmnl/byos_laravel",
+      "depNameTemplate": "ghcr.io/usetrmnl/larapaper",
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "autoReplaceStringTemplate": "version: \"{{{newVersion}}}\""
     }
