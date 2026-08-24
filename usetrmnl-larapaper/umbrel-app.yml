@@ -2,7 +2,7 @@ manifestVersion: 1
 id: usetrmnl-larapaper
 category: automation
 name: LaraPaper
-version: "0.39.0"
+version: "0.40.0"
 tagline: Community-driven self-hosted application to manage TRMNL e-ink devices.
 icon: https://raw.githubusercontent.com/bnussbau/umbrel-store/refs/heads/master/usetrmnl-larapaper/logo.svg
 description: >
