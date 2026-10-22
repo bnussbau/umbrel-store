@@ -25,9 +25,7 @@
       "commitMessageAction": "update",
       "commitMessageTopic": "{{depName}} to {{newVersion}}",
       "commitMessageExtra": "",
-      "labels": ["dependencies", "renovate", "automerge"],
-      "postUpdateOptions": ["dockerComposeDigestUpdate"],
-      "postUpgradeTasks": {}
+      "labels": ["dependencies", "renovate", "automerge"]
     }
   ],
   "customManagers": [
@@ -43,9 +41,6 @@
       "extractVersionTemplate": "^v?(?<version>.*)$",
       "autoReplaceStringTemplate": "version: \"{{{newVersion}}}\""
     }
-  ],
-  "postUpdateOptions": [
-    "dockerComposeDigestUpdate"
   ]
 }
 
