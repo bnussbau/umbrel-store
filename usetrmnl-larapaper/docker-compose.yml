@@ -6,7 +6,7 @@ services:
       PROXY_AUTH_WHITELIST: "/api/*,/storage/*"
 
   app:
-    image: ghcr.io/usetrmnl/larapaper:0.48.0@sha256:a69335618acd95268b68fb5223b5b9fb99ac5e54a7cffe8b9fd93a8f627a64d7
+    image: ghcr.io/usetrmnl/larapaper:0.49.0@sha256:583736516b288a67b8e169cd0106f9d44c098b5f76d01d59417aec89267bd94c
     environment:
       - PHP_OPCACHE_ENABLE=1
       - TRMNL_PROXY_REFRESH_MINUTES=15
